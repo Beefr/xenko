@@ -427,11 +427,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xenko.Rendering", "..\sourc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geometry3Sharp", "..\..\..\..\geometry3Sharp\geometry3Sharp-master\geometry3Sharp.csproj", "{0C518DDA-28FE-44CA-9AB0-F9773974F13A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3D-Generators", "3D-Generators", "{6B1BB758-4F78-42D5-A1C6-355FA79BA320}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RollingSphere", "RollingSphere", "{6B1BB758-4F78-42D5-A1C6-355FA79BA320}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SceneFromCode", "C:\Users\Corentin\Documents\Xenko Projects\SceneFromCode\SceneFromCode\SceneFromCode.csproj", "{747C7C34-5551-4D79-B7CD-6896DDCDBB02}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SceneFromCode.Windows", "C:\Users\Corentin\Documents\Xenko Projects\SceneFromCode\SceneFromCode.Windows\SceneFromCode.Windows.csproj", "{A3ADBD78-B29D-4097-83C5-29462CFDBD16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UiAnd3D", "UiAnd3D", "{A7BC5282-52B6-4D3B-880A-7BAE3733D555}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiAnd3D", "C:\Users\Corentin\Documents\Xenko Projects\UiAnd3D\UiAnd3D\UiAnd3D.csproj", "{379A858C-3223-463B-8625-FCAD31BBE23E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiAnd3D.Windows", "C:\Users\Corentin\Documents\Xenko Projects\UiAnd3D\UiAnd3D.Windows\UiAnd3D.Windows.csproj", "{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -1617,6 +1623,30 @@ Global
 		{A3ADBD78-B29D-4097-83C5-29462CFDBD16}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A3ADBD78-B29D-4097-83C5-29462CFDBD16}.Release|Win32.ActiveCfg = Release|Any CPU
 		{A3ADBD78-B29D-4097-83C5-29462CFDBD16}.Release|Win32.Build.0 = Release|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Debug|Win32.Build.0 = Debug|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Release|Win32.ActiveCfg = Release|Any CPU
+		{379A858C-3223-463B-8625-FCAD31BBE23E}.Release|Win32.Build.0 = Release|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Debug|Win32.Build.0 = Debug|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Release|Win32.ActiveCfg = Release|Any CPU
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1745,6 +1775,9 @@ Global
 		{6B1BB758-4F78-42D5-A1C6-355FA79BA320} = {1AE1AC60-5D2F-4CA7-AE20-888F44551185}
 		{747C7C34-5551-4D79-B7CD-6896DDCDBB02} = {6B1BB758-4F78-42D5-A1C6-355FA79BA320}
 		{A3ADBD78-B29D-4097-83C5-29462CFDBD16} = {6B1BB758-4F78-42D5-A1C6-355FA79BA320}
+		{A7BC5282-52B6-4D3B-880A-7BAE3733D555} = {1AE1AC60-5D2F-4CA7-AE20-888F44551185}
+		{379A858C-3223-463B-8625-FCAD31BBE23E} = {A7BC5282-52B6-4D3B-880A-7BAE3733D555}
+		{5685F3D4-66EF-4B79-B365-B4B4A10A14DD} = {A7BC5282-52B6-4D3B-880A-7BAE3733D555}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF877973-604D-4EA7-B5F5-A129961F9EF2}
